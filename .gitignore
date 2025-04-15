@@ -10,6 +10,9 @@ dist/
 .next/
 out/
 
+# local vscode settings
+.vscode/
+
 # logs
 npm-debug.log*
 yarn-debug.log*
