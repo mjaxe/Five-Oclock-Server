@@ -5,7 +5,7 @@ const cors = require('cors');
 const zoneRoutes = require('./controllers/zoneController');
 
 app.use(cors({
-  origin: ['http://localhost:4200', 'https://five-oclock-client.vercel.app'], // Add your deployed frontend here if needed
+  origin: ['http://localhost:4200', 'https://five-oclock-client.vercel.app','https://five-oclock-client-git-main-mjaxes-projects.vercel.app'], // Add your deployed frontend here if needed
 }));
 
 app.use(express.json());
