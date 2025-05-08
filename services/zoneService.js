@@ -38,7 +38,7 @@ async function getGroqChatCompletion(city, country) {
     messages: [
       {
         role: "user",
-        content: `Give me a cocktail recipe popular in ${city}, ${country}. Give the drink name, then list the ingredients`,
+        content: `Give me a cocktail recipe popular in ${city}, ${country}. Give just the drink name itself and then list the ingredients`,
       },
     ],
     model: "llama-3.3-70b-versatile",
