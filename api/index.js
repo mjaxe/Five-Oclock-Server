@@ -31,6 +31,9 @@ app.use(cors({
 
 app.use(express.json());
 app.use('/zones', zoneRoutes)
+app.get('/', (req, res) => {
+  res.send('Five O’Clock Server is live!');
+});
 
 module.exports = (req, res) => {
   app(req, res)
